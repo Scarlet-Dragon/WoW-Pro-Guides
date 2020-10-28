@@ -8,11 +8,11 @@ WoWPro:GuideNextGuide(guide, 'Tiragarde Sound')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald standing near Hero's Call Boards.|ACH|14222;;false|
-C Tides of War|QID|46727|M|85.27,32.30|Z|Stormwind City|QO|1|NC|N|Listen to the council while they discuss their plans.|ACH|14222;;false|
-C Tides of War|QID|46727|M|85.07,32.60|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|ACH|14222;;false|
-T Tides of War|QID|46727|M|85.28,32.28|Z|Stormwind City|N|To Anduin Wrynn.|ACH|14222;;false|
-A The Nation of Kul Tiras|QID|46728|M|85.28,32.26|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|ACH|14222;;false|
-R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Run of fly back down to the docks.|ACH|14222;;false|
+C Tides of War|QID|46727|M|80.50,33.50|Z|Stormwind City|QO|1|NC|N|Head to the Petitioner's Chamber in Stormwind Keep, then listen to the council while they discuss their plans.|ACH|14222;;false|
+C Tides of War|QID|46727|M|80.50,33.50|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|ACH|14222;;false|
+T Tides of War|QID|46727|M|80.27,33.13|Z|Stormwind City|N|To Anduin Wrynn.|ACH|14222;;false|
+A The Nation of Kul Tiras|QID|46728|M|80.27,33.13|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|ACH|14222;;false|
+R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Run or fly to Stormwind Harbour.|ACH|14222;;false|
 C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|ACH|14222;;false|
 T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|ACH|14222;;false|
 
@@ -26,7 +26,7 @@ C Take out the Warden|QID|47098|QO|4|M|40.27,54.95|Z|Tol Dagor|N|Assist in killi
 C Gather Gunpowder|QID|47098|QO|5|M|43.56,54.12|Z|Tol Dagor|NC|N|Pick up the gun powder to cause more mayham.|
 C Blow the Cell Door|QID|47098|QO|6|M|43.72,47.00;40.36,43.26;43.09,36.95|CC|Z|Tol Dagor|NC|N|Click on the gate to place the gun powder.|
 C Into the sewers|QID|47098|QO|7|M|39.06,51.43|Z|Tol Dagor|NC|N|Down the stairs and around the corner to the sewers.|
-C Board the boat|QID|47098|QO|8|M|42.58,58.65;54.70,48.00;63.16,43.78;60.81,25.71|CC|Z|Tol Dagor|NC|N|Follow the wall to your left till you eventually come to a rowboat, get in. Enjoy the ride and dialog.|
+C Board the boat|QID|47098|QO|8|M|42.58,58.65;54.70,48.00;63.16,43.78;60.81,25.71|CC|Z|Tol Dagor|V|N|Continue through the sewer, then when outside, follow the wall to your left till you eventually come to the rowboat, then board. Enjoy the ride and dialog.|
 T Out Like Flynn|QID|47098|M|75.73,23.58|Z|Boralus|N|To Taelia.|
 A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE|47098|
 C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
@@ -50,12 +50,12 @@ N Herbalism|ACTIVE|47099|M|71.42,4.63|Z|Boralus|N|Train BfA Herbalism at Declan 
 N Archaeology|ACTIVE|47099|M|68.34,8.49|Z|Boralus|N|Train BfA Archaeology at Jane Hudsun, inside the Hudsun Archaeological Building. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
 N Cooking|ACTIVE|47099|M|71.22,10.66|Z|Boralus|N|Train BfA Cooking at "Cap'n" Byron Mehlsack.|P|Cooking;185|RECIPE|259430|;
 C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.11,12.65|Z|Boralus|CHAT|N|The inn is back on the main walkway. Set your hearthstone here. (there is a portal to Stormwind nearby).|
-f Tradewinds Market|QID|47099|M|66.96,14.99|Z|Boralus|N|Grab the1 the flight point.|
+f Tradewinds Market|QID|47099|M|66.96,14.99|Z|Boralus|N|Grab the Flightpoint for Boralus Harbor.|
 C Go to the Flightmaster|QID|47099|QO|4|M|66.96,14.99|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
 T Get Your Bearings|QID|47099|M|66.96,14.99|Z|Boralus|N|To Taelia. who is right beside you.|
 A The Old Knight|QID|46729|M|66.96,14.99|Z|Boralus|N|From Taelia.|PRE|47099|
-C The Old Knight|QID|46729|QO|1|M|67.13,23.17|CS|Z|Boralus|NC|N|Head down the stairs to the Harbormasters office.|
-C The Old Knight|QID|46729|QO|2|M|67.13,23.17|CS|Z|Boralus|CHAT|N|Shake Cyrus's hand.|
+C The Old Knight|QID|46729|QO|1|M|70.75,17.15;68.89,21.13;67.13,23.17|CS|Z|Boralus|NC|N|Head back to Tradewinds Market, then down the stairs to the Harbormasters office.|
+C The Old Knight|QID|46729|QO|2|M|68.00,21.92|CS|Z|Boralus|CHAT|N|Wait for him to stand in front of the fireplace, then shake Cyrus's hand.|
 C The Old Knight|QID|46729|QO|3|M|68.01,21.91|Z|Boralus|CHAT|N|Sit back and listen to his story.|
 T The Old Knight|QID|46729|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|46729|
