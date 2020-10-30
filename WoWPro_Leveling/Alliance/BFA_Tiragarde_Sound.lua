@@ -50,7 +50,6 @@ C Sampling the Goods|QID|53041|QO|1|M|75.18,50.75|NC|N|Pick up the Chemist's Not
 A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|RANK|2|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|LEAD|48873^48874^48879|RANK|2|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
-A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
 R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CC|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|LEAD|49531|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
@@ -148,6 +147,7 @@ T Encase of Emergency|QID|49066|M|69.59,64.39|N|To Lord Kennings.|
 T Noble Responsibilities|QID|48909|M|75.84,65.88|N|To Alanna Holton.|
 F Bridgeport|ACTIVE|47489|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
 ; castaways and cutouts arc
+A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
 C Stow and Go|QID|47489|QO|1|M|75.85,49.14|CHAT|N|Tell Flynn you are ready.|
 C Stow and Go|QID|47489|QO|2|M|75.29,48.40|NC|N|Board The Maiden's Virtue.|
 C Stow and Go|QID|47489|QO|3|M|75.50,48.07|NC|N|Hide in Barrel of Fish|
