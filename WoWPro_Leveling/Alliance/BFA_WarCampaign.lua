@@ -29,7 +29,7 @@ T The Zandalar Campaign|QID|51569|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane.
 A Mission from the King|QID|51714|M|69.73,27.80|Z|Boralus|N|From Falstad Wildhammer.|PRE|53332|
 T Mission from the King|QID|51714|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 A War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51714|
-N War of Shadows|QID|51715|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "The Shadow War" mission, and come back in 2 hours.|MID|1877|
+N War of Shadows|QID|51715|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "The Shadow War" mission, and come back in 2 hours.|MID|1877|ACTIVE|51715|
 t War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 A Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51715|
 C Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
@@ -155,9 +155,8 @@ C Rocks of Ragnaros|QID|51309|M|39.34,72.48|Z|Zuldazar|NC|US|N|Finish collecting
 T Rocks of Ragnaros|QID|51309|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 T Mole Machinations|QID|51331|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51309&51331|
-C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
-C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|2|N|Go forth and kill goblins.|
-T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
+C Fragment of the Firelands|QID|51359|M|PLAYER|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
+C Fragment of the Firelands|QID|51359|M|39.50,72.60|Z|Zuldazar|QO|2|N|Go forth and kill goblins.|T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Champion: Kelsey Steelspark|QID|52003|M|40.76,70.67|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51359|
 T Champion: Kelsey Steelspark|QID|52003|M|40.76,70.67|Z|Zuldazar|N|To Kelsey Steelspark.|
 A Return to Boralus|QID|51968|M|40.76,70.67|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52003|
