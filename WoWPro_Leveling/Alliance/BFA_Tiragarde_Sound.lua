@@ -50,7 +50,6 @@ C Sampling the Goods|QID|53041|QO|1|M|75.18,50.75|NC|N|Pick up the Chemist's Not
 A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|RANK|2|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|LEAD|48873^48874^48879|RANK|2|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
-A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
 R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CC|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|LEAD|49531|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
@@ -135,7 +134,7 @@ C The Start of a Monster Hunt|QID|49039|M|70.88,61.69|QO|1|NC|N|Examine the Smas
 C The Start of a Monster Hunt|QID|49039|M|70.81,61.44|QO|3|NC|N|Examine the Disturbed Trap.|
 T The Start of a Monster Hunt|QID|49039|M|70.89,61.98|N|To Lord Kennings.|
 A Noble Responsibilities|QID|48909|M|70.89,61.98|N|From Lord Kennings.|RANK|2|PRE|49039|
-A Encase of Emergency|QID|49066|M|70.89,61.98|N|From Lord Kennings.|RANK|2|PRE|49039|
+A Encase of Emergency|QID|49066|M|PLAYER|N|From Lord Kennings.|RANK|2|PRE|49039|
 C Noble Responsibilities|QID|48909|M|70.33,62.92|QO|1|NC|N|Examine the cold corpse.|
 C Encase of Emergency|QID|49066|M|69.30,63.13|S|N|Click on the 'Humming Ice' and then kill the 'agitated ice shardlings' that come out, then loot Pristine Ice Chunks.|
 C Noble Responsibilities|QID|48909|M|69.23,62.41|QO|2|NC|N|Examine the Hunter's corpse for clues.|
@@ -144,10 +143,11 @@ K Ranja|QID|51872|QO|1|M|68.27,63.57|T|Ranja|RARE|ITEM|154478|N|Silver Elite to 
 C Noble Responsibilities|QID|48909|M|68.19,65.13|QO|4|NC|N|Examine the Fresh Stag Corpse.|
 C Noble Responsibilities|QID|48909|M|68.11,66.77|QO|5|N|Kill the Wendigo in the cave.|
 C Encase of Emergency|QID|49066|US|M|69.30,63.13|N|Finish gathering Pristine Ice Chunks.|
-T Encase of Emergency|QID|49066|M|69.59,64.39|N|To Lord Kennings.|
+T Encase of Emergency|QID|49066|M|PLAYER|N|To Lord Kennings.|
 T Noble Responsibilities|QID|48909|M|75.84,65.88|N|To Alanna Holton.|
-F Bridgeport|ACTIVE|47489|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
+F Bridgeport|AVAILABLE|47489|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|PRE|48909|
 ; castaways and cutouts arc
+A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
 C Stow and Go|QID|47489|QO|1|M|75.85,49.14|CHAT|N|Tell Flynn you are ready.|
 C Stow and Go|QID|47489|QO|2|M|75.29,48.40|NC|N|Board The Maiden's Virtue.|
 C Stow and Go|QID|47489|QO|3|M|75.50,48.07|NC|N|Hide in Barrel of Fish|
@@ -173,7 +173,7 @@ K Patheope|ACTIVE|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave
 K Nolpe|ACTIVE|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
-K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
+K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill. May or may not drop the Mantle. If it doesn't, manually skip this step.|RANK|2|
 $ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here.|RANK|3|PRE|52859|ACTIVE|49230|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
@@ -184,12 +184,12 @@ T Local Flavor|QID|49230|M|85.47,80.73|N|To Hungry Sam.|
 T Blood in the Tides|QID|48421|M|85.73,76.63|N|To Captain Keelson.|
 T Lured and Allured|QID|48419|M|84.90,76.07|N|To Flynn Fairwind.|
 A Lovesick and Lost|QID|48505|M|84.90,76.07|N|From Flynn Fairwind.|PRE|48419|
-K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Run up and kill this silver elite before you help Flynn up, so you can better keep an eye on Flynn afterwards.|RARE|ITEM|154411|
-C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|S|N|Help him and lead/follow him up the hill.|
+C Lovesick and Lost|QID|48505|M|84.90,76.07|CHAT|S|N|Help him and lead/follow him up the hill. He will stop and wait if you get too far in front/behind, and no mobs will attack him.|
+K Blackthorne|QID|51808|QO|1|T|Blackthorne|M|85.27,73.57|RANK|3|N|Flynn will wait on the path for you as you kill this Elite.|RARE|ITEM|154411|
 A Toxic Community|QID|48516|M|82.74,72.75|N|From Skinner MacGuff.|
 C Toxic Community|QID|48516|M|82.74,72.75|N|Kill marrowflys and saurolisks, then loot to collect the Toxic Stingers. Don't bother searching for the treasure you may see on your map, you can't get to it from here. Just keep Flynn in site and walk with him every once in awhile as you get the stingers.|
-T Toxic Community|QID|48516|M|82.73,72.76|N|To Skinner MacGuff.|
-C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|US|NC|N|Lead/Follow him around the hill, killing Marrowflys, eventually he will wander off the correct direction.|
+T Toxic Community|QID|48516|M|82.73,72.76|N|To Skinner MacGuff. Flynn will do a circle back to him if you haven't arrived back to him already.|
+C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|US|NC|N|Yes, you are finished with your side job! Finish leading/following him up the hills, eventually he will run towards Freehold.|
 T Lovesick and Lost|QID|48505|M|80.19,75.26|N|To Flynn Fairwind.|
 ; Freehold
 A Freehold|QID|48539|M|80.19,75.26|N|From Flynn Fairwind.|PRE|48505|
@@ -208,7 +208,7 @@ l Azerite Cannonballs|ACTIVE|48606|M|78.60,77.85|S|L|152628 10|N|Pick up the can
 C Rig Robbing|QID|48776|M|77.1,76.23|QO|1|NC|N|Grab ropes by clicking on the pole and then run away from the water to pull them out. Eventually one of them will deposit a glowing bottle of Grog for you to pick up.|
 l Azerite Cannonballs|ACTIVE|48606|M|78.60,77.85|US|L|152628 10|N|Pick up the cannonballs as you go.|RANK|2|
 C Loaded for Bear|QID|48606|M|78.43,77.67;77.72,76.65|CN|NC|N|Use one of the cannons to shoot at the Ashvane Co. Supplies. if you don't destroy all the supplies, go pick up more cannonballs and do it again.|
-T Loaded for Bear|QID|48606|M|78.44,77.69|N|To UI Alert.|
+T Loaded for Bear|QID|48606|M|PLAYER|N|To UI Alert.|
 C The Irontide Crew|QID|48558|M|78.21,76.27|US|N|Continue killing the Irontide crew until you have collected the Azerite Cutlasses and powder horns.|
 C The Beatings Will Continue|QID|48774|M|78.21,76.27|US|N|Finish up killing the necesary Irontide Ruffians and Overseers.|
 T The Beatings Will Continue|QID|48774|M|79.19,76.32|N|To Geraldine.|
@@ -224,8 +224,10 @@ C Dress to Impress|QID|49239|QO|2|M|77.33,84.15|NC|N|Enter the Dead Man's Tale|
 T Dress to Impress|QID|49239|M|77.33,83.97|N|To Flynn Fairwind.|
 A Rodrigo's Roost|QID|49401|M|77.33,83.97|N|From Flynn Fairwind.|PRE|49239|
 A Raise a Glass!|QID|49398|M|77.35,83.92|N|From Venrik.|PRE|49239|
-C Raise a Glass!|QID|49398|M|77.35,83.92|QO|1|CHAT|N|Pick a drink from Venriks options|
-C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|U|153599|NC|N|Drink your drink|
+C Raise a Glass!|QID|49398|M|77.35,83.92|QO|1|CHAT|N|Pick a drink from Venriks options, a choice of [item=153599], [item=153600], and [item=153601]|
+C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|S!US|U|153599|NC|N|Did you pick [item=153599]? Drink up!|
+C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|S!US|U|153600|NC|N|Did you pick [item=153600]? Drink up!|
+C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|U|153601|NC|N|Did you pick [item=153601]? Drink up!|
 T Raise a Glass!|QID|49398|M|77.35,83.92|N|To Venrik.|
 f Freehold|AVAILABLE|49402|M|77.04,82.89|N|At Rodrigo.|
 A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|PRE|49398|RANK|2|  ;  &49401 Not needed, quest avail without turn in
@@ -233,8 +235,8 @@ C Rodrigo's Roost|QID|49401|M|77.03,82.90|QO|1|CHAT|N|Ask Rodrigo to send the le
 T Rodrigo's Roost|QID|49401|M|77.33,83.97|N|To Flynn Fairwind.|
 A The Big Job|QID|49399|M|77.33,83.97|N|From Flynn Fairwind.|PRE|49398&49401|
 A Recruiting Efforts|QID|49400|M|77.35,83.92|N|From Venrik.|PRE|49398&49401|RANK|2|
-C Flew the Coop|QID|49402|S|U|154878|N|Toss the food when a Runaway Macaw is in range.|
-C Recruiting Efforts|QID|49400|M|77.35,83.92|S|N|If you get seen taking down a recruiting poster, you will be attacked and lose the disguise. Don't forget to reapply it.|
+C Flew the Coop|QID|49402|S|U|154878|N|Toss the food when a Runaway Macaw is in range.|NC|T|Runaway|
+C Recruiting Efforts|QID|49400|M|77.35,83.92|S|N|Whilst nobody is nearby, pull the recruiting posters down. If you get seen taking down a recruiting poster, you will be attacked and lose the disguise. Don't forget to reapply it.|NC|
 C Kill Bilge Rats|QID|49399|QO|1|S|N|Kill Bilge Rat mobs until you get the Bilge Rat Orders.|
 C The Big Job|QID|49399|QO|2|S|N|Kill Cutwater type mobs until you get the Cutwater Corsair Orders.|
 C Kill Blacktooth Bruisers|QID|49399|QO|3|S|N|Kill Blacktooth Bruisers until you get their orders.|
@@ -249,35 +251,36 @@ C Trixie Business|QID|49407|M|76.48,82.64|QO|1|CHAT|N|Talk to Trixie, then follo
 T Trixie Business|QID|49407|M|76.90,85.98|N|To Carentan.|
 A Carentan's Payment|QID|49522|M|76.90,85.98|N|From Carentan.|PRE|49407|RANK|2|
 C Carentan's Payment|QID|49522|M|76.81,85.97|NC|N|Open the Dusty Crate.|
-T Carentan's Payment|QID|49522|M|76.88,86.02|N|To UI Alert.|
-A A Bad Deal|QID|49523|M|76.88,86.02|N|From UI Alert.|PRE|49522|RANK|2|
+T Carentan's Payment|QID|49522|M|PLAYER|N|To UI Alert.|
+A A Bad Deal|QID|49523|M|PLAYER|N|From UI Alert.|PRE|49522|RANK|2|
 C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-covered Chest.|
 C Missing Treasure!|QID|49409|QO|5|M|76.31,80.80|NC|N|Pick up the missing treasure.|
-T Missing Treasure!|QID|49409|M|76.31,80.80|N|To UI Alert.|
+T Missing Treasure!|QID|49409|M|PLAYER|N|To UI Alert.|
 K Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|RARE|ITEM|155271|N|You need to remove your disguise to attack her. Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Kill Blacktooth Bruisers|QID|49399|QO|3|US|N|Keep killing Blacktooth Bruisers until you have their Orders.|
 C The Big Job|QID|49399|QO|2|US|N|Keep killing Cutwater Corsairs until you have their Orders.|
 C Kill Bilge Rats|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
 C Recruiting Efforts|QID|49400|US|N|Finish tearing down Irontide Recruiting Posters.|
-C Flew the Coop|QID|49402|US|U|154878|N|Finish feeding the Runaway Macaws.|
+C Flew the Coop|QID|49402|US|U|154878|N|Finish feeding the Runaway Macaws.|T|Runaway|
 T The Big Job|QID|49399|M|77.35,83.92|N|To Venrik.|
-T Recruiting Efforts|QID|49400|M|77.35,83.92|N|To Venrik.|
 A Fairwind's "Friends"|QID|49404|M|77.35,83.92|N|From Venrik.|PRE|49399|
+T Recruiting Efforts|QID|49400|M|77.35,83.92|N|To Venrik.|
 T Flew the Coop|QID|49402|M|77.04,82.92|N|Taelia comes flying in and takes you and Flynn to Rodrigo.|
 A Rodrigo's Revenge|QID|49403|M|77.04,82.92|N|From Rodrigo.|PRE|49402|RANK|2|
-C Rodrigo's Revenge|QID|49403|NC|N|Hop on the Riding Macaw for a bombing run. You control where the macaw flys, if you use autorun, it is myuch easier to stop, bomb, fly abit more, etc. as camera angles won't stay looking down.|
-T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Fly back to Rodrigo and use the dismount button there. Turn quest into Rodrigo.|
-K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|RARE|T|Auditor Dolp|N|Don't forget to remove you disguise to fight him. Silver Elite to kill for Azerite Power and resources.|RANK|2|;item n\a
-C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
+C Rodrigo's Revenge|QID|49403|V|N|Hop on the Riding Macaw for a bombing run. Press 1 and aim at any of the pirates.|
+T Rodrigo's Revenge|QID|49403|M|77.03,82.89|N|Wait for the return flight, then To Rodrigo.|
+K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|RARE|T|Auditor Dolp|N|He can be found across the bridge. Don't forget to remove you disguise to fight him. Silver Elite to kill for Azerite Power and resources.|RANK|2|;item n\a
+C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. As soon as you enter the arena, you will lose your disguise forever, so make sure you have done everything else before this point. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
 T Fairwind's "Friends"|QID|49404|M|77.14,82.91|N|Wait near Flynn for a bird to fly you back and then turn in to Taelia.|
 A Defenders of Daelin's Gate|QID|49405|M|77.14,82.91|N|From Taelia.|PRE|49404|
 ; Defenders of Daelin's Gate
-C Defenders of Daelin's Gate|QID|49405|NC|M|77.14,82.91|N|Hop on Galeheart.|
+C Defenders of Daelin's Gate|QID|49405|QO|1|V|M|77.14,82.91|N|Hop on Galeheart.|
+C Defenders of Daelin's Gate|QID|49405|QO|2|NC|M|77.14,82.91|N|Sit back and enjoy the ride.|
 T Defenders of Daelin's Gate|QID|49405|M|60.92,59.17|N|To Vigil Hill Refugee.|
 A No-Landing Zone|QID|52431|M|60.92,59.17|N|From Vigil Hill Refugee.|PRE|49405|
-C No-Landing Zone|QID|52431|M|61.14,61.29|N|All three of your targets are here, one at a time.|
+C No-Landing Zone|QID|52431|M|61.14,61.29|N|On the shore edge, one will be there already, the other two will arrive one at a time by boat. |
 $ Forgotten Smuggler's Stash|QID|52867|M|61.78,62.75|N|Loot for Azerite Power and resources. Avoid stepping on the webs on the floor unless you want to kill baby spiders too.|RANK|2|
 T No-Landing Zone|QID|52431|M|60.91,59.17|N|To Vigil Hill Refugee.|
 A A Desperate Defense|QID|49869|M|60.91,59.17|N|From Vigil Hill Refugee.|PRE|52431|
