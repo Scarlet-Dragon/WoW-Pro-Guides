@@ -298,27 +298,27 @@ T Numbing the Pain|QID|52787|M|56.47,61.70|N|To Taelia.|
 T Air Raid|QID|49737|M|56.67,61.18|N|To Lieutenant Tarenfold.|
 T Farmers Who Fight|QID|52750|M|56.67,61.18|N|To Lieutenant Tarenfold.|
 A Hands Off My Booty!|QID|49738|M|56.67,61.18|N|From Lieutenant Tarenfold.|PRE|52750&49737|
-C Hands Off My Booty!|QID|49738|M|56.12,64.44|NC|N|Use the Cannon to fire on the looters.|
+C Hands Off My Booty!|QID|49738|M|56.12,64.44|V|N|Use the Cannon to fire on the looters.|
 T Hands Off My Booty!|QID|49738|M|56.67,61.16|N|To Lieutenant Tarenfold.|
 A For Kul Tiras!|QID|49736|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
 A Cease Fire!|QID|49740|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
 A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|PRE|49738|
 A Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|From Meredith.|PRE|49869|RANK|2|
-C Cat on a Hot Copper Roof|QID|49757|M|58.84,61.32|QO|1|N|Start at the lowest ring (if you are a short race you will have to jump to reach it). Work your way around the house from ring to ring, till you get to the upstairs porch where Scratchy is.|
+C Cat on a Hot Copper Roof|QID|49757|M|58.84,61.32|V|QO|1|N|Start at the lowest ring (if you are a short race you will have to jump to reach it). Work your way around the house from ring to ring, till you get to the upstairs porch where Scratchy is.|
 T Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|To Meredith.|
 A Enemies at the Gate|QID|49739|M|58.44,64.74|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|49405|RANK|2|
 C Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|Bonus Objective - This will most likely be accomplished before you finish the other objectives.|
-C For Kul Tiras!|QID|49736|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
-C Cease Fire!|QID|49740|S|N|Click on the Captured Cannons to destroy them.|
-C Righteous Retribution|QID|49741|M|58.01,63.25;55.40,67.84|CS|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
-C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|EAB|
+C For Kul Tiras!|QID|49736|NC|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
+C Cease Fire!|QID|49740|NC|S|N|Click on the Captured Cannons to destroy them.|
+C Righteous Retribution|QID|49741|M|58.10,63.80;55.40,67.84|CS|NC|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
+C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|NC|N|Use Special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|EAB|
 C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat boarded.|
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Bloodwake.|EAB|;coords a little off, do it when the boat stops.
 C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|V|N|Hop on Galeheart's back for a mini bombing run.|
 C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powder Barrels.|
 K Black-Eyed Bart|QID|50096|M|56.34,69.92|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
-C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
-C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
+C Cease Fire!|QID|49740|NC|M|56.55,69.20;57.20,70.10|CS|US|N|Finish destroying the Captured Cannons.|
+C For Kul Tiras!|QID|49736|NC|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
 t Enemies at the Gate|QID|49739|M|57.22,67.36|N|Bonus Objective - Autocompleted.|
 l Soggy Treasure Map|QID|52853|M|74.03,84.16|Z|Tiragarde Sound|L|162571|N|Keep killing pirates until you loot the Soggy Treasure Map, or give up, check this off and move on.|RANK|3|;need QID
