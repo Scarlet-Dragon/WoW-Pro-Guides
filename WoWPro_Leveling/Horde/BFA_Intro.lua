@@ -8,13 +8,13 @@ WoWPro:GuideNextGuide(guide, 'Zuldazar')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Mission Statement|QID|51443|M|49.40,76.58|Z|Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|ACH|14222;;false|
-C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|ACH|14222;;false|
+C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|NC|N|Walk into Grommash Hold to speak to Warchief Sylvanas Windrunner (via Cutscene)|ACH|14222;;false|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|ACH|14222;;false|
 T Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|ACH|14222;;false|
 
 A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|ACH|14222;;false|
-C The Stormwind Extraction|QID|50769|M|50.89,83.96|Z|Orgrimmar|QO|2|V|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
+C The Stormwind Extraction|QID|50769|M|50.89,83.96|Z|Orgrimmar|QO|2|V|N|Mount a Skyhorn Eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
 C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|NC|N|Infiltrate Stormwind City|ACH|14222;;false|
 C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City!Stormwind City!Instance|SO|2;2|NC|N|Open the sewer access gate|ACH|14222;;false|
 C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City!Stormwind City!Instance|SO|2;1|NC|N|Go in the sewer access gate.|ACH|14222;;false|
@@ -43,7 +43,7 @@ C Speaker of the Horde|QID|46931|M|57.95,42.09|Z|Zuldazar|QO|2|NC|N|Head outside
 C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|Head back inside, and walk to the end, the location of The Great Seal.|
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|To the left, head down the stairs to the Hall of Ancient Paths. These will be your portals to the Horde Cities once this quest is complete.|
 C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Head back up the stairs, across the corridor, then down the stairs to the Vault of the King.|
-T Speaker of the Horde|QID|46931|M|41.28,66.75|Z|The Great Seal!Dazar'alor|N|Back up the stairs, to Chronicler To'kini.|
+T Speaker of the Horde|QID|46931|M|41.28,66.75|Z|The Great Seal!Dazar'alor|N|Back up the stairs, to Chronicler To'kini/Princess Talanji.|
 A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|1164|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|46931|
 t Nazmir|QID|47512|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
 t Vol'dun|QID|47513|M|41.22,66.75|Z|1164|N|To Princess Talanji.|
@@ -57,7 +57,7 @@ h The Great Seal|ACTIVE|47103^47313^49615|M|48.50,71.75|Z|The Great Seal!Dazar'a
 ; professions
 N Cooking|ACTIVE|52749|M|28.44,50.42|Z|1164|N|Train BfA Cooking at T'sarah the Royal Chef.|P|Cooking;185|RECIPE|259430|;
 N Archaeology|ACTIVE|52749|M|36.17,46.42|Z|1164|N|Train BfA Archaeology at Examiner Alerinda who wanders around in the Vault of Kings. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
-R Terrace of Crafters|AVAILABLE|51465|M|43.15,35.51|Z|Dazar'alor|N|Run down to Terrace of the Crafters to train you various professions.|
+R Terrace of Crafters|AVAILABLE|51465|M|43.15,35.51|Z|Dazar'alor|N|Run down to Terrace of the Crafters to train your various professions.|
 N Skinning|ACTIVE|52749|M|43.76,34.67|Z|Dazar'alor|N|Train BfA skinning at Ranna the Cutta.|P|Skinning;393|RECIPE|257152|;
 N Leatherworking|ACTIVE|52749|M|44.07,34.65|Z|Dazar'alor|N|Train BfA Leatherworking at Xanjo.|P|Leatherworking;165|RECIPE|256756|;265813
 N Tailoring|ACTIVE|52749|M|44.49,33.90|Z|Dazar'alor|N|Train BfA Tailoring at Pin'jin the Patient.|P|Tailoring;197|RECIPE|257103|;265815
@@ -72,6 +72,7 @@ N Mining|ACTIVE|52749|M|44.13,38.97|Z|Dazar'alor|N|Train BfA Mining at Secott th
 N Blacksmithing|ACTIVE|52749|M|43.65,38.30|Z|Dazar'alor|N|Train BfA Blacksmithing at Forgemaster Zak'aal.|P|Blacksmithing;164|RECIPE|253183|;
 N Jewelcrafting|ACTIVE|52749|M|47.05,37.94|Z|Dazar'alor|N|Train BfA Jewelcrafting at Seshuli.|P|Jewelcrafting;755|RECIPE|256689|;265811
 N Enchanting|ACTIVE|52749|M|47.08,35.68|Z|Dazar'alor|N|Train BfA Enchanting at Enchantress Quinni.|P|Enchanting;333|RECIPE|255074|;
+
 ;to open up Jani's mysterious trashpiles
 N Jani's Mysterious Trashpiles|QID|47441|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
 R The Zocalo|QID|47441|M|42.22,25.82|Z|Dazar'alor|N|Run down, down, down in the general direction of the waypoint.|RANK|3|;cant be ACTIVE as you don't have the quest yet
