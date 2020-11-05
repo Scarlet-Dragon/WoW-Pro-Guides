@@ -96,9 +96,10 @@ T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra. \nLocati
 A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'themar Theron.|PRE|55799|
 f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|PRE|55799|
 ;zone intro
-A The Warchief's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
-T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|56030|
+;October 20, 2020 - Patch 9.0.1 Hotfixes - Players who are eligible to visit Nazjatar will no longer be prompted upon log in to start the quest The Warchief's Order. Instead, players can begin their journey to Nazjatar by starting the quest, Send the Fleet by speaking to Nathanos 
+;A The Warchief's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
+;T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C Send the Fleet|QID|56044|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar.|
 T Send the Fleet|QID|56044|M|36.80,93.50|N|To Nathanos Blightcaller.|
 A Upheaval|QID|55054|M|36.80,93.50|N|From Nathanos Blightcaller.|PRE|56044|
@@ -138,7 +139,15 @@ T A Way Home|QID|55053|M|48.50,62.37|N|To Chief Telemancer Oculeth.|
 A Essential Empowerment|QID|55851|M|48.27,62.47|N|From Magni Bronzebeard.|PRE|55053|
 P The Great Seal|QID|55851|ACTIVE|55851|M|47.27,62.77|TZ|Hall of Ancient Paths|N|Take the portal or otherwise travel to Zuldazar.|
 P Silithus|ACTIVE|55851|M|73.72,85.37|Z|Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
-P Chamber of Heart|ACTIVE|55851|M|43.19,44.48|Z|Silithus|TZ|Chamber of Heart|N|Take the portal or otherwise travel to the Chamber of Heart.|
+T A Dying World |QID|53028|ACTIVE|53028|M|42.20,44.36|Z|Silithus|N|To Magni Bronzebeard|
+A The Heart of Azeroth |QID|51211|M|42.20,44.36|Z|Silithus|N|From Magni Bronzebeard|PRE|53028|
+T The Heart of Azeroth |QID|51211|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A Infusing the Heart |QID|52428|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|51211|
+C Infusing the Heart |QID|52428|M|50.30,63.88|Z|Chamber of Heart!Dungeon1473|N|Use the action button to infuse at the given locations|
+T Infusing the Heart |QID|52428|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A A Brother's Help |QID|54938|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. The rest of this quest chain not included in this Nazjatar guide.|
+P Magni's Encampment|ACTIVE|54938|M|50.15,30.39|Z|Chamber of Heart!Dungeon1473|N|Use the Titan Translocator (this step needed to "reset" the Chamber of Heart)|
+P Chamber of Heart|ACTIVE|55851|M|43.19,44.48|Z|Silithus|TZ|Chamber of Heart|N|Take the portal to the Chamber of Heart.|
 T Essential Empowerment|QID|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55851|
 C MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
