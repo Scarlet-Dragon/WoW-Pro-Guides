@@ -96,7 +96,7 @@ C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion!The Shadowlands|NC|N|
 C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion!The Shadowlands|NC|N|Click on one of the floating scrolls.|MS|
 l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway and inside the room with Hurculon.|ACH|14307;1|
 K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|Bastion!The Shadowlands|T|Herculon|N|Interact with Herculon, "Supply Weak Anima Mote" 10 times to activate him. Defeat him to gain access to the Aspirant Chest. The chest, behind where Herculon was, contains your reward and a quest starter.|RARE|ACH|14307;1|
-A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|
+A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|LVL|50|
 T A Fate Most Noble|QID|57584|M|42.09,78.30|Z|Bastion!The Shadowlands|N|To Kleia.|MS|
 A Trouble in Paradise|QID|60735|M|42.09,78.30|Z|Bastion!The Shadowlands|N|From Kleia.|PRE|57584|MS|
 C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
